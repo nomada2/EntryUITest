@@ -12,7 +12,7 @@ namespace EntryUITest.ViewModels
 
         public string EmailKeyboardEntryText
         {
-            get => _emailKeyboardEntryText;
+            get { return _emailKeyboardEntryText; }
             set
             {
                 SetProperty(ref _emailKeyboardEntryText, value);
